@@ -1,0 +1,413 @@
+export const SCREEN_NAME = {
+  SPLASH_SCREEN: 'SPLASH_SCREEN',
+  START_SCREEN: 'START_SCREEN',
+  HOME_SCREEN: 'HOME_SCREEN',
+  LEARN_ONE_SCREEN: 'LEARN_ONE_SCREEN',
+  GYM_SCREEN: 'GYM_SCREEN',
+  CLUB_SCREEN: 'CLUB_SCREEN',
+  LIST_ROOM_CLUB_SCREEN: 'LIST_ROOM_CLUB_SCREEN',
+  CHOOSE_ACTION_SCREEN: 'CHOOSE_ACTION_SCREEN',
+  ROOM_GAME_SCREEN: 'ROOM_GAME_SCREEN',
+  LIBRARY_VIDEO_SCREEN: 'LIBRARY_VIDEO_SCREEN',
+  DETAIL_TOPIC_SCREEN: 'DETAIL_TOPIC_SCREEN',
+  DETAIL_VIDEO_SCREEN: 'DETAIL_VIDEO_SCREEN',
+  DETAIL_WORD_SCREEN: 'DETAIL_WORD_SCREEN',
+  DICTIONARY_SCREEN: 'DICTIONARY_SCREEN',
+  DICTIONARY_DETAIL_SCREEN: 'DICTIONARY_DETAIL_SCREEN',
+  PROFILE_SCREEN: 'PROFILE_SCREEN',
+  ONBOARDING_SCREEN: 'ONBOARDING_SCREEN',
+  MAPS_SCREEN: 'MAPS_SCREEN',
+  VOCABULARY_REVIEW_SCREEN: 'VOCABULARY_REVIEW_SCREEN',
+  NAME_INPUT: 'NAME_INPUT',
+  QUESTION_LEVEL: 'QUESTION_LEVEL',
+  QUESTION_JOB: 'QUESTION_JOB',
+  TRANSITION_SCREEN: 'TRANSITION_SCREEN',
+  FINISH_LEARNING_SCREEN: 'FINISH_LEARNING_SCREEN',
+  CREATE_ROUTE_SCREEN: 'CREATE_ROUTE_SCREEN',
+  KNOWLEDGE_ASSESSMENT_SCREEN: 'KNOWLEDGE_ASSESSMENT_SCREEN',
+  SUITABLE_TOPIC_SCREEN: 'SUITABLE_TOPIC_SCREEN',
+  LEARN_WORD_SCREEN: 'LEARN_WORD_SCREEN',
+  LISTENING_SCREEN: 'LISTENING_SCREEN',
+  LIST_LISTEN_SCREEN: 'LIST_LISTEN_SCREEN',
+  LIST_LEVEL_SCREEN: 'LIST_LEVEL_SCREEN',
+  FINISH_LISTEN_SCREEN: 'FINISH_LISTEN_SCREEN',
+  COMPLETE_ROUTE: 'COMPLETE_ROUTE',
+  NETWORK_LOGGER_SCREEN: 'NETWORK_LOGGER_SCREEN',
+  VIDEO_ROUTE_SCREEN: 'VIDEO_ROUTE',
+
+  LIST_IPA_SCREEN: 'LIST_IPA_SCREEN',
+  LEARN_IPA_SCREEN: 'LEARN_IPA_SCREEN',
+  TRANSITION_IPA_SCREEN: 'TRANSITION_IPA_SCREEN',
+  END_IPA_SCREEN: 'END_IPA_SCREEN',
+
+  ROUTE_RATING: 'ROUTE_RATING',
+
+  LOGIN_SCREEN: 'LOGIN_SCREEN',
+  FORGOT_PASSWORD: 'FORGOT_PASSWORD',
+  REQUEST_OTP_SCREEN: 'REQUEST_OTP_SCREEN',
+  SEND_OTP_SCREEN: 'SEND_OTP_SCREEN',
+  CONFIRM_OTP_SCREEN: 'CONFIRM_OTP_SCREEN',
+  UPDATE_PASSWORD_SCREEN: 'UPDATE_PASSWORD_SCREEN',
+  REGISTER_SCREEN: 'REGISTER_SCREEN',
+  REGISTER_SUCCESS_SCREEN: 'REGISTER_SUCCESS_SCREEN',
+  STAGE_MISSION: 'STAGE_MISSION',
+
+  LEARN_WORD_V2_SCREEN: 'LEARN_WORD_V2_SCREEN',
+
+  TOFU_PRO_SCREEN: 'TOFU_PRO_SCREEN',
+  CONVERT_SCREEN: 'CONVERT_SCREEN',
+
+  LIST_VOICE_OVER_SCREEN: 'LIST_VOICE_OVER_SCREEN',
+  VOICE_OVER_SCREEN: 'VOICE_OVER_SCREEN',
+  VIDEO_LEARNING: 'VIDEO_LEARNING',
+  SETTING_SCREEN: 'SETTING_SCREEN',
+  EDIT_PROFILE_SCREEN: 'EDIT_PROFILE_SCREEN',
+  EDIT_PASSWORD_SCREEN: 'EDIT_PASSWORD_SCREEN',
+  STRUCT_PHRASE: 'STRUCT_PHRASE',
+  FINISH_LEARN_STRUCT: 'FINISH_LEARN_STRUCT',
+
+  PAYMENT_SCREEN: 'PAYMENT_SCREEN',
+  DETAIL_PAYMENT_SCREEN: 'DETAIL_PAYMENT_SCREEN',
+  CONVERT_SCREEN_SUCCESS: 'CONVERT_SCREEN_SUCCESS',
+  NOTIFICATION_FROM_TOFU_PRO_SCREEN: 'NOTIFICATION_FROM_TOFU_PRO_SCREEN',
+
+  LEVEL_TEST_SCREEN: 'LEVEL_TEST_SCREEN',
+  EXAM_FINISH: 'EXAM_FINISH',
+  BEGIN_TEST_LEVEL: 'BEGIN_TEST_LEVEL',
+  COMMENT_SCREEN: 'COMMENT_SCREEN',
+};
+
+export const SCREEN_TRACKING = {
+  LEARN_FEED: 'tab_learnfeed',
+  ONBOARDING: 'onboarding',
+  FINISH_LEARNING: 'tab_learnfeed/hoan_thanh_hoc_tu_on_tu',
+  CREATE_ROUTE_SCREEN: 'onboarding/tao_lo_trinh',
+  FINISH_ROUTE: 'onboarding/hoan_thanh_tao_lo_trinh',
+  GYM_SCREEN: 'tab_learngym',
+  LISTEN_LIST: 'tab_learngym/hoc_nghe/home',
+  LISTEN_DETAIL: 'tab_learngym/hoc_nghe/giao_dien',
+  TRIAL: 'pu_14_ngay_dung_thu',
+  POPUP_PRO: 'pu_goi_tofu_pro',
+  POPUP_NOTIFICATION: 'pu_nhan_thong_bao',
+  TEST_INPUT: 'onboarding/kiem_tra',
+  TEST_SPEAKING: 'onboarding/kiem_tra/kiem_tra_noi',
+  TEST_FINISH: 'onboarding/kiem_tra/ket_qua',
+  REGISTER_POPUP: 'onboarding/dung_thu/dang_ky',
+};
+
+export const GESTURE = {
+  TAP: 'tap',
+};
+
+export const WIDGET = {
+  BUTTON: 'button',
+};
+
+export const STACK_NAME = {
+  HOME_STACK: 'HOME_STACK',
+  GYM_STACK: 'GYM_STACK',
+  CLUB_STACK: 'CLUB_STACK',
+  DICTIONARY_STACK: 'DICTIONARY_STACK',
+  PROFILE_STACK: 'PROFILE_STACK',
+  BOTTOM_TAB: 'BOTTOM_TAB',
+};
+
+export const ASYNC_STORAGE = {
+  ACCESS_TOKEN: 'ACCESS_TOKEN',
+  DEVICE_ID: 'DEVICE_ID',
+  DEVICE_TOKEN: 'DEVICE_TOKEN',
+};
+
+export const MESSAGE_CODES = {
+  CODE_200: 'SUCCESS',
+  CODE_100: 'Dữ liệu không được trống!',
+  CODE_404: 'App có chút vấn đề, bạn thử lại xem ạ :(',
+  CODE_401: 'Bạn đã thử quá nhiều. Vui lòng thử lại sau 10 phút.',
+  CODE_504: 'App đang xử lý thông tin hơi lâu, bạn chờ xíu nha ^_^',
+  CODE_452: 'Bạn chưa có quyền truy cập vào đây rồi :(',
+  CODE_447: 'Tài khoản của bạn đã bị xoá, xin vui lòng liên hệ bộ phận CSKH',
+  CODE_448:
+    'Có một thiết bị lạ vừa đăng nhập vào tài khoản của em. Nếu không phải là em, thì em hãy nhanh chóng đăng nhập lại và đổi mật khẩu ngay nhé.\\n- From Chị App Hack Não',
+  CODE_500:
+    'App đang trở gió, bị ốm mất rồi, bạn thử lại sau ít phút nha :heart:',
+  CODE_503:
+    'App đang trở gió, bị ốm mất rồi, bạn thử lại sau ít phút nha :heart:',
+};
+
+export const ERROR_CODES = {
+  SUCCESS: '200',
+  EMPTY_FIELD: '100',
+  WRONG: '404',
+  CODE_447: 447,
+  CODE_401: 401,
+  CODE_448: 448,
+  CODE_429: 429,
+};
+
+export const STEP_LEARN = {
+  STEP_VERSE: 1,
+  STEP_JOINT: 2,
+  STEP_CHOOSE_WORD_PHRASE: 3,
+  STEP_SPEAK: 4,
+  STEP_PRACTICE: 5,
+};
+
+export const STEP_STRUCT = {
+  STEP_INSTRUCTION: 1,
+  STEP_CHOOSE_IMAGE: 2,
+  STEP_CHOOSE_WORD: 3,
+  STEP_CHOOSE_MULTIPLE: 4,
+  STEP_ARRANGE: 5,
+};
+
+export const LESSON_LEARN = {
+  LEARN_SENTENCE_CODE_SWITCHING_WORD: 'LEARN_SENTENCE_CODE_SWITCHING_WORD',
+  LEARN_LISTEN_ARRANGE_WORD: 'LEARN_LISTEN_ARRANGE_WORD',
+  LEARN_DRAG_DROP_WORD: 'LEARN_DRAG_DROP_WORD',
+  LEARN_SPEAKING_WORD: 'LEARN_SPEAKING_WORD',
+  PRACTICE_WORD: 'PRACTICE_WORD',
+  LEARN_LISTEN_VIDEO_WORD: 'LEARN_LISTEN_VIDEO_WORD',
+  LEARN_TRANSLATE_WORD: 'LEARN_TRANSLATE_WORD',
+
+  LEARN_SENTENCE_CODE_SWITCHING_PHRASE: 'LEARN_SENTENCE_CODE_SWITCHING_PHRASE',
+  LEARN_CHOOSE_MEANING_PHRASE: 'LEARN_CHOOSE_MEANING_PHRASE',
+  LEARN_CHOOSE_EXAMPLE_PHRASE: 'LEARN_CHOOSE_EXAMPLE_PHRASE',
+  LEARN_SPEAKING_PHRASE: 'LEARN_SPEAKING_PHRASE',
+  PRACTICE_PHRASE: 'PRACTICE_PHRASE',
+  LEARN_CHOOSE_SENTENCE_PHRASE: 'LEARN_CHOOSE_SENTENCE_PHRASE',
+  LEARN_LISTEN_ARRANGE_PHRASE: 'LEARN_LISTEN_ARRANGE_PHRASE',
+};
+
+export const STRUCT_LEARN = {
+  LEARN_INSTRUCTION_STRUCTURE: 'LEARN_INSTRUCTION_STRUCTURE',
+  LEARN_CHOOSE_IMAGE_STRUCTURE: 'LEARN_CHOOSE_IMAGE_STRUCTURE',
+  LEARN_CHOOSE_WORD_STRUCTURE: 'LEARN_CHOOSE_WORD_STRUCTURE',
+  LEARN_CHOOSE_MULTIPLE_STRUCTURE: 'LEARN_CHOOSE_MULTIPLE_STRUCTURE',
+  LEARN_ARRANGE_STRUCTURE: 'LEARN_ARRANGE_STRUCTURE',
+};
+
+export const STEP_LISTEN = {
+  NGHE_HIEU_1: 'NGHE_HIEU_1',
+  NGHE_HIEU_3: 'NGHE_HIEU_3',
+  SUMMARY_1: 'SUMMARY_1',
+  SUMMARY_2: 'SUMMARY_2',
+  NGHE_HIEU_2: 'NGHE_HIEU_2',
+  NGHE_HIEU_4: 'NGHE_HIEU_4',
+  NGHE_HIEU_5: 'NGHE_HIEU_5',
+  NGHE_HIEU_6: 'NGHE_HIEU_6',
+  NGHE_HIEU_7: 'NGHE_HIEU_7',
+  NGHE_HIEU_8: 'NGHE_HIEU_8',
+};
+
+export const BUTTON_JOINT_TYPE = {
+  REMOVE: 'REMOVE',
+  TEXT: 'TEXT',
+};
+
+export const KEY_XOR_ENCODE = '1StepUp1VietNam@';
+
+export const TOAST_TYPE = {
+  Error: 'ERROR',
+  Success: 'SUCCESS',
+  Custom: 'CUSTOM',
+};
+
+export const TOAST_LENGTH = {
+  SHORT: 2000,
+  LONG: 4000,
+};
+
+export const AUDIO_STATUS = {
+  RECORDING: 'RECORDING',
+  NORMAL: 'NORMAL',
+};
+
+export const ADJUST_EVENT = {
+  REGISTER_SUCCESS: '3z885q',
+  MOMO_PAY: 'ea9nuv',
+  ATM_PAY: 'ikul4o',
+  SUPPORT: 'fkmim8',
+};
+
+export const LEARN_TYPE = {
+  HOC_TU: 'hoc_tu',
+  HOC_CUM: 'hoc_cum',
+  LO_TRINH: 'lo_trinh',
+  PHAT_AM: 'phat_am',
+  TRA_TU: 'tra_tu',
+  ON_TU: 'on_tu',
+  XEM_VIDEO: 'xem_video',
+  ipa_learn_pair: 'ipa_learn_pair',
+  ipa_div_pair: 'ipa_div_pair',
+  ipa_practice: 'ipa_practice',
+  DANH_GIA_CHANG: 'danh_gia_chang',
+  NGHE_HIEU: 'nghe_hieu',
+  LONG_TIENG: 'long_tieng',
+  ON_CUM: 'on_cum',
+  HOC_CAU_TRUC: 'hoc_cau_truc',
+  ON_CAU_TRUC: 'ON_CAU_TRUC',
+};
+
+export const LISTEN_TYPE = {
+  LOCK: 'LOCK',
+  NORMAL: 'NORMAL',
+  FINISH: 'FINISH',
+};
+
+export const LOADING_MODE = {
+  SMALL: 'small',
+  FULL: 'full',
+  OVERLAY: 'overlay',
+};
+
+export const GYM_SKILL_TYPE = {
+  NGU_PHAP: 'NGU_PHAP',
+  IPA: 'IPA',
+  GIAO_TIEP: 'GIAO_TIEP',
+  NGHE_HIEU: 'NGHE_HIEU',
+};
+
+export const IPA_TYPE = {
+  HOC_PHAT_AM: 'HOC_PHAT_AM',
+  CAP_TU: 'CAP_TU',
+  LUYEN_TAP: 'LUYEN_TAP',
+  KIEM_TRA: 'KIEM_TRA',
+};
+
+export const COMPLETE_STAGE_TYPE = {
+  VOCAB_REWARD: 'vocab_reward',
+  IPA_REWARD: 'ipa_reward',
+  IPA_IMPROVE: 'ipa_improve',
+  VOCAB_IMPROVE: 'vocab_improve',
+  STAGE_COMPLETION_TIME: 'stage_completion_time',
+};
+
+export const APP_NAME = 'TOFU';
+export const ADJUST_KEY = 'fn2jebt1tkw0';
+
+export const VOLUME = 10;
+export const YOUTUBE_API_KEY = 'AIzaSyDwikWiDDhKN6PRlEQs9nZhpz0BGdn9OuE';
+
+export const iconSearch = color => `
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path d="M23.707 22.2928L17.738 16.3238C19.3646 14.3344 20.1644 11.7959 19.9718 9.23334C19.7793 6.67081 18.6092 4.28031 16.7036 2.5563C14.798 0.832292 12.3026 -0.0933258 9.73364 -0.029094C7.16469 0.0351378 4.7187 1.08431 2.90161 2.9014C1.08452 4.71848 0.0353515 7.16447 -0.0288803 9.73342C-0.0931122 12.3024 0.832506 14.7977 2.55652 16.7034C4.28053 18.609 6.67103 19.7791 9.23356 19.9716C11.7961 20.1642 14.3346 19.3644 16.324 17.7378L22.293 23.7068C22.4816 23.8889 22.7342 23.9897 22.9964 23.9875C23.2586 23.9852 23.5094 23.88 23.6948 23.6946C23.8802 23.5092 23.9854 23.2584 23.9877 22.9962C23.99 22.734 23.8892 22.4814 23.707 22.2928ZM10 17.9998C8.41774 17.9998 6.87103 17.5306 5.55543 16.6515C4.23984 15.7725 3.21446 14.5231 2.60896 13.0612C2.00346 11.5994 1.84503 9.99091 2.15371 8.43906C2.46239 6.88721 3.22432 5.46175 4.34314 4.34293C5.46196 3.22411 6.88742 2.46218 8.43927 2.1535C9.99112 1.84482 11.5997 2.00324 13.0615 2.60875C14.5233 3.21425 15.7727 4.23963 16.6518 5.55522C17.5308 6.87081 18 8.41753 18 9.99978C17.9976 12.1208 17.154 14.1542 15.6542 15.654C14.1544 17.1538 12.121 17.9974 10 17.9998Z" fill=${color}/>
+</svg>
+`;
+
+export const iconX = color => `
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 1C12.8125 0.81253 12.5582 0.707214 12.293 0.707214C12.0278 0.707214 11.7735 0.81253 11.586 1L7 5.586L2.414 1C2.22647 0.81253 1.97216 0.707214 1.707 0.707214C1.44184 0.707214 1.18753 0.81253 1 1C0.81253 1.18753 0.707214 1.44184 0.707214 1.707C0.707214 1.97216 0.81253 2.22647 1 2.414L5.586 7L1 11.586C0.81253 11.7735 0.707214 12.0278 0.707214 12.293C0.707214 12.5582 0.81253 12.8125 1 13C1.18753 13.1875 1.44184 13.2928 1.707 13.2928C1.97216 13.2928 2.22647 13.1875 2.414 13L7 8.414L11.586 13C11.7735 13.1875 12.0278 13.2928 12.293 13.2928C12.5582 13.2928 12.8125 13.1875 13 13C13.1875 12.8125 13.2928 12.5582 13.2928 12.293C13.2928 12.0278 13.1875 11.7735 13 11.586L8.414 7L13 2.414C13.1875 2.22647 13.2928 1.97216 13.2928 1.707C13.2928 1.44184 13.1875 1.18753 13 1Z" fill=${color}/>
+</svg>
+`;
+
+export const SUBS = {
+  ALL: 'ALL',
+  ENG: 'ENG',
+  VIE: 'VIE',
+  OFF: 'OFF',
+};
+
+export const SPEED = {
+  speed75: 0.75,
+  speed100: 1,
+  speed125: 1.25,
+};
+
+export const STORAGE = {
+  videoLearningPath: 'videoLearningPath',
+  isNotFirstDub: 'isNotFirstDub',
+  hasFcmToken: 'hasFcmToken',
+  adjust: 'adjust',
+};
+
+export const TYPE_REGISTER = {
+  REGISTER: 'REGISTER',
+  TOFU_PRO: 'TOFU_PRO',
+  TRAIL_14_DAYS: 'TRAIL_14_DAYS',
+};
+
+export const PAYMENT_TYPE = {
+  MOMO: 'MOMO',
+  TRANSFER: 'TRANSFER',
+  SUPPORT: 'SUPPORT',
+};
+
+export const PAYMENT_STATUS = {
+  NO_: 'NO_', // don tam dc tao khi dung momo - cms cu
+  N0: 'N0', // don tam dc tao khi dung momo
+  NA: 'NA', // don moi
+  S0: 'S0', // don dang ket noi
+  S01: 'S01', // don cho xac nhan
+  S02: 'S02', // Từ chối xác nhận
+  S1: 'S1', // don thanh cong
+  L03: 'L0.3', // don thanh cong - cms cu
+  S2: 'S2', // don that bai
+  L2F: 'L2F', //Đơn bị huỷ cms cu
+};
+
+export const PAYMENT_ICON = {
+  SUCCESS: 'SUCCESS',
+  CONFIRM_BANK: 'CONFIRM_BANK',
+  SUPPORT: 'SUPPORT',
+};
+
+export const CMS_TYPE = {
+  OLD: 'OLD',
+  NEW: 'NEW',
+};
+
+export const CHANNEL_APP = 8;
+
+export function debounce(func, wait, immediate) {
+  let timeout;
+
+  return function executedFunction() {
+    // eslint-disable-next-line consistent-this
+    let context = this;
+    let args = arguments;
+
+    let later = function () {
+      timeout = null;
+      if (!immediate) {
+        func.apply(context, args);
+      }
+    };
+
+    let callNow = immediate && !timeout;
+
+    clearTimeout(timeout);
+
+    timeout = setTimeout(later, wait);
+
+    if (callNow) {
+      func.apply(context, args);
+    }
+  };
+}
+
+export const STRUCTURE = 'STRUCTURE';
+
+export const completionStage = {
+  LEARN_FEED: 'Learn feed',
+  NGHE_HIEU: 'Nghe hiểu',
+  IPA: 'Ngữ âm Ipa',
+  THU_VIEN_VIDEO: 'Thư viện video',
+  TU_DIEN: 'Từ điển',
+  LONG_TIENG: 'Lồng tiếng cực mạnh',
+};
+
+export const ACCOUNT_FROM = {
+  APP_HNPRO_IMPORT: 'APP_HNPRO_IMPORT',
+  CMS_HNPRO_IMPORT: 'CMS_HNPRO_IMPORT',
+};
+
+export const REPORT_FEATURE = {
+  learn_feed_hoc_tu: 'learn_feed_hoc_tu',
+  learn_feed_hoc_cum: 'learn_feed_hoc_cum',
+  learn_feed_hoc_cau_truc: 'learn_feed_hoc_cau_truc',
+  gym_ipa: 'gym_ipa',
+  gym_nghe_hieu: 'gym_nghe_hieu',
+  gym_thu_vien_video: 'gym_thu_vien_video',
+  gym_long_tieng_video: 'gym_long_tieng_video',
+  gop_y: 'gop_y',
+};
